@@ -86,7 +86,7 @@ try:
     #Adicionando o gráfico à planilha
     planilha_grafico.add_chart(grafico, 'A3')
 
-    #Efetivamente criando o arquivo Ecel
+    #Efetivamente criando o arquivo Excel
     workbook.save('./saida/Planilha.xlsx')
     print('Planilha Excel criada!')
 
